@@ -11,8 +11,8 @@ public class Main{
 
     C3.Somma(C1,C2);
 
-    System.out.println("Numero 1: "+C1.getR()+" ,"+C1.getI());
-    System.out.println("Numero 2: "+C2.getR()+" ,"+C2.getI());
-    System.out.println("Numero 3: "+C3.getR()+" ,"+C3.getI());
+    System.out.println("Numero 1: "+C1.toString());
+    System.out.println("Numero 2: "+C2.toString());
+    System.out.println("Numero 3: "+C3.toString());
     }
 }
