@@ -25,8 +25,9 @@ public class NumeroComplesso {
         if(i >= 0) {
             return r + "+" + i + "i";
         }else{
-            return r + "-" + i + "i";
+            return "" + r + i + "i";
         }
     }
 
 }
+
