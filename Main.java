@@ -9,7 +9,7 @@ public class Main{
     NumeroComplesso C2 = new NumeroComplesso(9,7);
     NumeroComplesso C3 = new NumeroComplesso(0,0);
 
-    C3.Somma(C1,C2);
+    C3 = C1.Somma(C2);
 
     System.out.println("Numero 1: "+C1.toString());
     System.out.println("Numero 2: "+C2.toString());
