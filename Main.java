@@ -10,6 +10,10 @@ public class Main{
     NumeroComplesso C3 = new NumeroComplesso(0,0);
 
     C3 = C1.Somma(C2);
+    /*
+        In alternativa:
+        NumeroComplesso C3 = new NumeroComplesso(C1.Somma(C2));
+    */
 
     System.out.println("Numero 1: "+C1.toString());
     System.out.println("Numero 2: "+C2.toString());
