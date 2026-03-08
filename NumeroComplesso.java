@@ -7,9 +7,16 @@ public class NumeroComplesso {
         this.i = i;
     }
 
-    void Somma(NumeroComplesso c1, NumeroComplesso c2){
-        this.r = c1.getR() + c2.getR();
-        this.i = c1.getI() + c2.getI();
+    NumeroComplesso(NumeroComplesso c){
+        this.r = c.getR();
+        this.i = c.getI();
+    }
+
+    NumeroComplesso Somma(NumeroComplesso c2){
+        int C3r = this.r + c2.getR();
+        int C3i = this.i + c2.getI();
+
+        return new NumeroComplesso(C3r,C3i);
     }
 
     int getR(){
@@ -30,4 +37,5 @@ public class NumeroComplesso {
     }
 
 }
+
 
